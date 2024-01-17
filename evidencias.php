@@ -87,7 +87,8 @@
         // Cerrar la conexión
         $conn->close();
     ?>
-      <h2>Portafolio de Evidencias</h2>
+    <h2>Portafolio de Evidencias</h2>
+    Nombre de tarea: <input type="text"/> <br/><br/>
     <form action="procesar_formulario.php" method="post" enctype="multipart/form-data">
     <label for="archivo">Adjuntar PDF:</label>
     <input type="file" name="archivo" id="archivo" accept=".pdf" required>
